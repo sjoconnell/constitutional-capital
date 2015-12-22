@@ -1,6 +1,6 @@
 <header class="banner">
     <nav class="navbar navbar-default">
-      <div class="container-fluid">
+      <div id="nav-container" class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="http://firstsage.dev/">
             <img class="cc-logo" src="http://firstsage.dev/wp-content/uploads/2015/12/Bitmap-Copy.png">
