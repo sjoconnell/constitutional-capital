@@ -14,12 +14,17 @@ footer {
     float: left;
 }
 
+.address-footer p {
+    letter-spacing: 2px;
+}
+
 .address-footer img, .footer-phone-number, {
     padding-bottom: 20px;
 }
 
 .footer-sitemap {
     padding-bottom: 30px;
+    font-size: 13px;
 }
 
 .footer-street-address {
@@ -41,6 +46,7 @@ footer {
 
 .form-footer p {
     padding-bottom: 15px;
+    letter-spacing: 2px;
 }
 
 .social-footer {
@@ -65,6 +71,7 @@ footer {
 
 input::-webkit-input-placeholder {
     color: #A8BFD2 !important;
+    letter-spacing: 2px;
 }
 
 .footer-form-button {
@@ -74,5 +81,6 @@ input::-webkit-input-placeholder {
     background-color: #22252B;
     padding-right: 22px;
     padding-left: 22px;
+    letter-spacing: 2px;
 }
 
