@@ -8,7 +8,21 @@
                 <a class="btn btn-default btn-lg" href="#" role="button">SERVICES</a>
             </div>
         </div>
-        
 
+        <div class="home-container-bottom">
+        
+            <div class="home-container-bottom-holder">
+              <img src="http://firstsage.dev/wp-content/uploads/2015/12/About-Eam-ea-nihil-audire-about-icon.png">
+            </div>
+
+            <div class="home-container-bottom-holder">
+              <img src="http://firstsage.dev/wp-content/uploads/2015/12/Services-Talmea-nihil-audire-services-icon.png">
+            </div>
+
+            <div class="home-container-bottom-holder">
+              <img src="http://firstsage.dev/wp-content/uploads/2015/12/Contact-Audire-cu-erant-orn-contact-icon.png">
+            </div>
+
+        </div>
     </div>
 <?php endwhile; ?>
