@@ -1,7 +1,7 @@
 #footer-container {
     margin-left: 75px;
     margin-right: 75px;
-    color: #545C66;
+    color: #A8BFD2;
     padding-top: 35px;
 }
 
@@ -14,8 +14,12 @@ footer {
     float: left;
 }
 
-.address-footer img, .footer-phone-number, .footer-sitemap {
+.address-footer img, .footer-phone-number, {
     padding-bottom: 20px;
+}
+
+.footer-sitemap {
+    padding-bottom: 30px;
 }
 
 .footer-street-address {
@@ -32,7 +36,7 @@ footer {
     height: 35px;
     border-radius: 50%;
     background-color: #545C66;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 .form-footer p {
@@ -49,3 +53,22 @@ footer {
     margin-left: auto;
     padding-top: 10px;
 }
+
+.form-group .form-control {
+    padding-right: 100px;
+    border-radius: 0px;
+    margin-right: 15px;
+    background-color: #22252B;
+    border: 1px solid #A8BFD2;
+    color: #A8BFD2;
+}
+
+.footer-form-button {
+    border-radius: 0px;
+    color: #A8BFD2;
+    border: 1px solid #A8BFD2;
+    background-color: #22252B;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+

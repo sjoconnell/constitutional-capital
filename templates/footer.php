@@ -15,7 +15,7 @@
             <label class="sr-only" for="exampleInputEmail3">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default footer-form-button">Submit</button>
         </form>
 
         <div class="social-footer">
