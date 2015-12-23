@@ -1,5 +1,5 @@
 <header class="banner">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default nav-no-margin">
       <div id="nav-container" class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="http://firstsage.dev/">
