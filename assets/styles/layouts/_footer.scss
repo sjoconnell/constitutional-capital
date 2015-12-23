@@ -14,14 +14,38 @@ footer {
     float: left;
 }
 
+.address-footer img, .footer-phone-number, .footer-sitemap {
+    padding-bottom: 20px;
+}
+
+.footer-street-address {
+    padding-bottom: 5px;
+}
+
 .form-footer {
     float: right;
 }
 
 .social-icon-background {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: #545C66;
+    margin-right: 20px;
+}
+
+.form-footer p {
+    padding-bottom: 15px;
+}
+
+.social-footer {
+    padding-top: 33px;
+}
+
+.social-icon-background img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
 }

@@ -2,9 +2,9 @@
   <div id="footer-container" class="container-fluid">
     <div class="address-footer">
         <img src="http://firstsage.dev/wp-content/uploads/2015/12/LOGO.png">
-        <p>141 W. Jackson Blvd. Chicago, IL 60604</p>
-        <p>312.282.1203</p>
-        <p>sitemap | all rights reserved</p>
+        <p class="footer-street-address">141 W. Jackson Blvd. Chicago, IL 60604</p>
+        <p class="footer-phone-number">312.282.1203</p>
+        <p class="footer-sitemap">sitemap | all rights reserved</p>
     </div>
 
     <div class="form-footer">
