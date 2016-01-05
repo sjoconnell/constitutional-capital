@@ -15,7 +15,7 @@
                 <p>Ei mel suas wisi, id pri regione consequuntur, habeo inani disputando nam no. Ius luptatum petentium consetetur ad, id eam tempor tritani delicata. Ea sit laudem facete.</p> 
             </div>
             <div class="about-middle-image">
-                <img class="about-graph" src="http://firstsage.dev/wp-content/uploads/2016/01/Screen-Shot-2016-01-04-at-6.02.31-PM.png">
+                <img class="about-graph" src="<?php echo get_template_directory_uri() ?>/dist/images/about-graph.png" />
             </div>       
         </div>
 
