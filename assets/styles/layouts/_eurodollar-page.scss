@@ -1,0 +1,100 @@
+
+.eurodollar-body {
+    width: 100%;
+}
+
+.navbar-euro-top {
+    background-color: #22252B;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
+    height: 75px;
+}
+
+.navbar-euro-top .container-fluid {
+    margin-right: 75px;
+    margin-left: 75px;
+    padding-right: 0px;
+}
+
+.table-euro {
+    margin-bottom: 0px;
+    color: #A8BFD2;
+}
+
+.navbar-eurodollar-title {
+    padding-top: 25px;
+    font-size: 26px;
+}
+
+.eurodollar-body .navbar-default .navbar-nav>li>a {
+    color: #A8BFD2;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.eurodollar-body .navbar-default .navbar-nav>li {
+    color: #A8BFD2;
+}
+
+#euro-nodrop {
+    padding-top: 13px;
+    font-size: 12px;
+}
+
+#table-euro-header-row {
+    background-color: white;
+    height: 30px;
+}
+
+#table-euro-header-row th {
+    border: none;
+    color: #454C5E;
+    font-size: 14px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #22252B;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #282B31;
+}
+
+.table-striped>tbody>tr {
+    height: 60px;
+}
+
+.table-striped>tbody>tr>td {
+    padding-top: 20px;
+    border: 1px solid #334150; 
+}
+
+.house-cell {
+    width: 300px;
+}
+
+.empty-cell {
+    width: 95px;
+}
+
+.standard-cell {
+    width: 85px;
+}
+
+.small-cell {
+    width: 60px;
+}
+
+.spread-cell {
+    width: 150px; 
+}
+
+.time-cell {
+    width: 175px;
+}
+
+.comments-cell {
+    width: 195px;
+}

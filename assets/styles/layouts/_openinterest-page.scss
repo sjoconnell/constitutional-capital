@@ -1,0 +1,32 @@
+.table-openinterest {
+    margin-bottom: 0px;
+    color: #A8BFD2;
+}
+
+#table-openinterest-header-row {
+    background-color: white;
+    height: 30px;
+}
+
+#table-openinterest-header-row th {
+    border: none;
+    color: #454C5E;
+    font-size: 14px;
+    text-align: center;
+}
+
+.table-openinterest>tbody>tr>td {
+    text-align: center;
+}
+
+.callput-cell {
+    width: 100px;
+}
+
+.strike-cell {
+    width: 60px;
+}
+
+.bar-cell {
+    width: 400px;
+}

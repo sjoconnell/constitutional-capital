@@ -1,0 +1,112 @@
+.about-body {
+    width: 100%;
+}
+
+.about-top, .about-middle {
+    background-color: #22252B;
+}
+
+
+.about-top p {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 2px;
+    font-size: 38px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 11%;
+    padding-bottom: 11%;
+}
+
+.about-middle {
+    padding-top: 200px;
+    width: 100%;
+    padding-bottom: 200px;
+    padding-left: 75px;
+}
+
+.about-middle-text, .about-bottom-text {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.about-middle-text h2, .about-bottom-text h2 {
+    color: #FFFFFF;
+    font-size: 44px;
+    letter-spacing: 1px;
+    line-height: 110%;
+    padding-bottom: 35px;
+}
+
+.about-middle-text p, .about-bottom-text p {
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.about-middle-image {
+    display: inline-block;
+    width: 66%;
+    overflow-x: hidden;
+    padding-left: 80px;
+}
+
+.about-bottom {
+    background-color: #282B31;
+    padding-top: 200px;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-left: 75px;
+}
+
+.about-bottom-text {
+    display: inline-block;
+    width: 39%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.about-bottom-profiles {
+    display: inline-block;
+    width: 60%;
+    overflow-x: hidden;
+    padding-left: 80px;
+}
+
+.about-bottom-profiles-place {
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+.about-bottom-profiles-place-image {
+    display: inline-block;
+    width: 30%;
+}
+
+.about-bottom-profiles-place-text {
+    display: inline-block;
+    width: 42%;
+}
+
+.about-bottom-profiles-place-text h2 {
+    padding-bottom: 3px;
+    font-size: 34px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.about-bottom-profiles-place-text h3 {
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.about-bottom-profiles-place-text p {
+    font-size: 18px;
+    color: #667581;
+}   
+
