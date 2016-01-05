@@ -2,7 +2,7 @@
     <nav class="navbar navbar-default nav-no-margin">
       <div id="nav-container" class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="http://firstsage.dev/">
+          <a class="navbar-brand" href="http://soconnell.link1.map.cliquedomains.com/">
             <img class="cc-logo" src="http://firstsage.dev/wp-content/uploads/2015/12/Bitmap-Copy.png">
           </a>
         </div>
@@ -13,7 +13,7 @@
           endif;
           ?>
 
-        <a class="btn btn-default btn-lg navbar-right" href="http://firstsage.dev/contact" role="button">Contact Us</a>
+        <a class="btn btn-default btn-lg navbar-right" href="http://soconnell.link1.map.cliquedomains.com/contact" role="button">Contact Us</a>
 
       </div>
     </nav>
