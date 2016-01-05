@@ -11,7 +11,7 @@
         <p>Sign up for our mailing list</p>
 
         <form class="form-inline">
-          <div class="form-group">
+          <div class="form-group form-footer-color" >
             <label class="sr-only" for="exampleInputEmail3">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
           </div>
