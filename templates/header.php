@@ -13,7 +13,7 @@
           endif;
           ?>
 
-        <a class="btn btn-default btn-lg navbar-right" href="http://soconnell.link1.map.cliquedomains.com/contact" role="button">Contact Us</a>
+        <a class="btn btn-default btn-lg navbar-right" href="http://soconnell.link1.map.cliquedomains.com/?page_id=19" role="button">Contact Us</a>
 
       </div>
     </nav>
