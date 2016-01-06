@@ -15,7 +15,6 @@
                 <p>Feugiat fierent laboramus nam te, mei te recteque omittantur. Id sea vero disputationi comprehensam, essent habemus moderatius est ne.</p> 
             </div>
             <div class="services-middle-image">
-                <img class="services-computer" src="<?php echo get_template_directory_uri() ?>/dist/images/Services-Computer.png">
             </div>       
         </div>
 
