@@ -27,7 +27,7 @@
             <div class="about-bottom-profiles">
                 <div class="about-bottom-profiles-place">
                     <div class="about-bottom-profiles-place-image">
-                        <img class="about-bottom-firstleader" src="http://firstsage.dev/wp-content/uploads/2016/01/Rectangle-207-Bitmap.png">
+                        <img class="about-bottom-firstleader" src="<?php echo get_template_directory_uri() ?>/dist/images/Leader-One.png">
                     </div>
                     <div class="about-bottom-profiles-place-text">
                         <h2>Name Lastname</h2>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="about-bottom-profiles-place">
                     <div class="about-bottom-profiles-place-image">
-                        <img class="about-bottom-firstleader" src="http://firstsage.dev/wp-content/uploads/2016/01/Rectangle-207-Copy-Bitmap.png">
+                        <img class="about-bottom-firstleader" src="<?php echo get_template_directory_uri() ?>/dist/images/Leader-Two.png">
                     </div>
                     <div class="about-bottom-profiles-place-text">
                         <h2>Name Lastname</h2>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="about-bottom-profiles-place">
                     <div class="about-bottom-profiles-place-image">
-                        <img class="about-bottom-firstleader" src="http://firstsage.dev/wp-content/uploads/2016/01/Rectangle-207-Copy-2-Bitmap.png">
+                        <img class="about-bottom-firstleader" src="<?php echo get_template_directory_uri() ?>/dist/images/Leader-Three.png">
                     </div>
                     <div class="about-bottom-profiles-place-text">
                         <h2>Name Lastname</h2>

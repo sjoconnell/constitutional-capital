@@ -2,7 +2,7 @@
 <?php while (have_posts()) : the_post(); ?>
     <div class="home-container">
         <div class="home-image-container">
-            <img class="home-background" src="http://firstsage.dev/wp-content/uploads/2015/12/Bitmap3.png">
+            <img class="home-background" src="<?php echo get_template_directory_uri() ?>/dist/images/homepage-background.png">
             <div class="home-background-text">
                 <p><?php the_field('homepage-banner-text');?></p>
                 <a class="btn btn-default btn-lg" href="<?php the_field('homepage-banner-button-link');?>" role="button"><?php the_field('homepage-banner-button-text');?></a>
@@ -12,15 +12,15 @@
         <div class="home-container-bottom">
         
             <div class="home-container-bottom-holder">
-              <img src="http://firstsage.dev/wp-content/uploads/2015/12/About-Eam-ea-nihil-audire-about-icon.png">
+              <img src="<?php echo get_template_directory_uri() ?>/dist/images/About-Icon-Homepage.png">
             </div>
 
             <div class="home-container-bottom-holder">
-              <img src="http://firstsage.dev/wp-content/uploads/2015/12/Services-Talmea-nihil-audire-services-icon.png">
+              <img src="<?php echo get_template_directory_uri() ?>/dist/images/Services-Icon-Homepage.png">
             </div>
 
             <div class="home-container-bottom-holder">
-              <img src="http://firstsage.dev/wp-content/uploads/2015/12/Contact-Audire-cu-erant-orn-contact-icon.png">
+              <img src="<?php echo get_template_directory_uri() ?>/dist/images/Contact-Icon-Homepage.png">
             </div>
 
         </div>

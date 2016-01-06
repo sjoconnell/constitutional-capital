@@ -15,7 +15,7 @@
                 <p>Feugiat fierent laboramus nam te, mei te recteque omittantur. Id sea vero disputationi comprehensam, essent habemus moderatius est ne.</p> 
             </div>
             <div class="services-middle-image">
-                <img class="services-computer" src="http://firstsage.dev/wp-content/uploads/2016/01/Comp.png">
+                <img class="services-computer" src="<?php echo get_template_directory_uri() ?>/dist/images/Services-Computer.png">
             </div>       
         </div>
 
@@ -24,9 +24,9 @@
                 <p>Placeholder text about mobile capacity</p>
             </div>
             <div class="services-bottom-image">
-                <img class="services-phone-left" src="http://firstsage.dev/wp-content/uploads/2016/01/iPhone-6-Silver-Copy.png">
-                <img class="services-phone-middle" src="http://firstsage.dev/wp-content/uploads/2016/01/iPhone-6-Silver-Copy-2-PLACEHOLDER- FOR-MOB-Copy-2.png">
-                <img class="services-phone-right" src="http://firstsage.dev/wp-content/uploads/2016/01/iPhone-6-Silver-Copy.png">      
+                <img class="services-phone-left" src="<?php echo get_template_directory_uri() ?>/dist/images/Side-Iphone.png">
+                <img class="services-phone-middle" src="<?php echo get_template_directory_uri() ?>/dist/images/Center-Iphone.png">
+                <img class="services-phone-right" src="<?php echo get_template_directory_uri() ?>/dist/images/Side-Iphone.png">      
             </div>
         </div>
  
