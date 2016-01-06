@@ -5,7 +5,7 @@
             <img class="home-background" src="<?php echo get_template_directory_uri() ?>/dist/images/homepage-background.png">
             <div class="home-background-text">
                 <p><?php the_field('homepage-banner-text');?></p>
-                <a class="btn btn-default btn-lg" href="<?php the_field('homepage-banner-button-link');?>" role="button"><?php the_field('homepage-banner-button-text');?></a>
+                <a class="btn btn-default btn-lg" href="<?php echo the_field('homepage-banner-button-link');?>" role="button"><?php the_field('homepage-banner-button-text');?></a>
             </div>
         </div>
 
