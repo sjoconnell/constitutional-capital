@@ -11,12 +11,12 @@
 
         <div class="home-container-bottom">
         
-            <div class="home-container-bottom-holder">
-              <img src="<?php echo get_template_directory_uri() ?>/dist/images/About-Icon-Homepage.png">
-              <p>About</p>
+        <?php while( have_rows('homepage-bottom') ): the_row(); ?>
+            <div class="home-container-bottom-holder" style="background-image:url(<?= the_sub_field('icons'); ?>)">
+              <p><?php the_sub_field('icon-text');?></p>
             </div>
-
-            <div class="home-container-bottom-holder">
+        <?php endwhile; ?>
+<!--             <div class="home-container-bottom-holder">
               <img src="<?php echo get_template_directory_uri() ?>/dist/images/Services-Icon-Homepage.png">
               <p>Services</p>
             </div>
@@ -24,7 +24,7 @@
             <div class="home-container-bottom-holder">
               <img src="<?php echo get_template_directory_uri() ?>/dist/images/Contact-Icon-Homepage.png">
               <p>Contact Us</p>
-            </div>
+            </div> -->
 
         </div>
     </div>
