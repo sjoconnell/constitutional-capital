@@ -6,16 +6,16 @@
         <div class="contact-body-map">
             <div class="contact-body-top-address">
                 <div class="contact-body-top-address-information">
-                    <h1>Placeholder Text for Contact Us Page Lorem Ipsum</h1>
-                    <h2>141 W Jackson Blvd<br>Chicago, IL 60604</h2>
-                    <p><span class="glyphicon glyphicon-earphone"></span>312-282-1203</p>
-                    <p><span class="glyphicon glyphicon-envelope"></span>info@ccapitalbrokerage.com</p>
+                    <h1><?php the_field('contact-info-text');?></h1>
+                    <h2><?php the_field('contact-address');?></h2>
+                    <p><span class="glyphicon glyphicon-earphone"></span><?php the_field('contact-number');?></p>
+                    <p><span class="glyphicon glyphicon-envelope"></span><?php the_field('contact-email');?></p>
                 </div>              
             </div>
         </div>
 
         <div class="contact-body-bottom">
-            <p>Contact Us</p>
+            <p><?php the_field('contact-form-title');?></p>
             <form>
                 <div class="form-group form-contact-color">
                     <input type="email" class="form-control form-contact-name" id="exampleInputEmail1" placeholder="First & Last Name">
