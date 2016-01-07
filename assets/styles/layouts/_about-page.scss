@@ -49,10 +49,12 @@
 }
 
 .about-middle-image {
+    background-image: url("../images/about-graph.png");
     display: inline-block;
     width: 66%;
     overflow-x: hidden;
     padding-left: 80px;
+    height: 450px;
 }
 
 .about-bottom {

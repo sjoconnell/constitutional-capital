@@ -4,25 +4,24 @@
     <div class="about-body">
         
         <div class="about-top">
-            <p>Our team brings over 50 years worth of combined experience in the pits to deliver the best pricing on your short term interest rate trades.</p>
+            <p><?php the_field('about-banner-text');?></p>
             <div class="white-line"></div>     
         </div>
 
         <div class="about-middle">
             <div class="about-middle-text">
-                <h2>Headline Text About Expertise</h2>
-                <p>Contentiones vix ad, deleniti tacimates cu usu. Ius ei saepe accusamus conclusionemque, elit nostrud te ius, delicata instructior no ius. Ut viris iuvaret has, at denique invidunt maiestatis sed, nam prima soluta gubergren ut. Feugiat fierent laboramus nam te, mei te recteque omittantur. Id sea vero disputationi comprehensam, essent habemus moderatius est ne.</p>
-                <p>Ei mel suas wisi, id pri regione consequuntur, habeo inani disputando nam no. Ius luptatum petentium consetetur ad, id eam tempor tritani delicata. Ea sit laudem facete.</p> 
+                <h2><?php the_field('about-middle-text-title');?></h2>
+                <p><?php the_field('about-middle-text-top');?></p>
+                <p><?php the_field('about-middle-text-bottom');?></p> 
             </div>
-            <div class="about-middle-image">
-                <img class="about-graph" src="<?php echo get_template_directory_uri() ?>/dist/images/about-graph.png" />
+            <div class="about-middle-image" style="background-image:url(<?= the_field('about-middle-image'); ?>)">
             </div>       
         </div>
 
         <div class="about-bottom">
             <div class="about-bottom-text">
-                <h2>Leadership</h2>
-                <p>Ei mel suas wisi, id pri regione consequuntur, habeo inani disputando nam no. Ius luptatum petentium consetetur ad, id eam tempor tritani delicata. Ea sit laudem facete.</p>
+                <h2><?php the_field('about-bottom-text-title');?></h2>
+                <p><?php the_field('about-bottom-text');?></p>
             </div>
             <div class="about-bottom-profiles">
                 <div class="about-bottom-profiles-place">
