@@ -1,7 +1,7 @@
 <?php /* Template Name: Home */ ?>
 <?php while (have_posts()) : the_post(); ?>
     <div class="home-container">
-        <div class="home-image-container" style="background-image:url(<?= the_field('homepage-banner-image'); ?>)">
+        <div class="home-image-container" style="background-image: linear-gradient(rgba(0, 0, 0, 0.54902), rgba(0, 0, 0, 0.54902)), url(<?= the_field('homepage-banner-image'); ?>)">
 
             <div class="home-background-text">
                 <p><?php the_field('homepage-banner-text');?></p>
