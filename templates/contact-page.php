@@ -15,6 +15,8 @@
         </div>
 
         <div class="contact-body-bottom">
+
+<!--         <?php echo do_shortcode('[gravityform id=1 title=false description=false ajax=true tabindex=49]'); ?> -->
             <p><?php the_field('contact-form-title');?></p>
             <form>
                 <div class="form-group form-contact-color">
