@@ -12,7 +12,10 @@
         <div class="home-container-bottom">
         
           <?php while( have_rows('homepage-bottom') ): the_row(); ?>
-              <div class="home-container-bottom-holder" style="background-image:url(<?= the_sub_field('icons'); ?>)">
+              <div class="home-container-bottom-holder">
+                <div class="home-container-bottom-holder-image" style="background-image:url(<?= the_sub_field('icons'); ?>)">
+                  
+                </div>
                 <p><?php the_sub_field('icon-text');?></p>
               </div>
           <?php endwhile; ?>
