@@ -1,9 +1,9 @@
 <footer class="content-info">
   <div id="footer-container" class="container-fluid">
     <div class="address-footer">
-        <img src="http://firstsage.dev/wp-content/uploads/2015/12/LOGO.png">
-        <p class="footer-street-address">141 W. Jackson Blvd. Chicago, IL 60604</p>
-        <p class="footer-phone-number">312.282.1203</p>
+        <img src="<?= the_field('footer-logo', 6);?>">
+        <p class="footer-street-address"><?php the_field('footer-address', 6);?></p>
+        <p class="footer-phone-number"><?php the_field('footer-number', 6);?></p>
         <p class="footer-sitemap">sitemap | all rights reserved</p>
     </div>
 
