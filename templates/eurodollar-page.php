@@ -3,7 +3,7 @@
 
     <div class="eurodollar-body">
 
-        <nav class="navbar navbar-default navbar-euro-top">
+        <nav class="navbar navbar-default navbar-euro-top navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <p class="navbar-eurodollar-title">Eurodollar: days trading</p>
@@ -27,7 +27,7 @@
             </div>
         </nav>
 
-        <div class="table-responsive">
+        <div class="table-responsive table-euro-responsive">
             <table class="table table-bordered table-striped table-euro">
                 <tr id="table-euro-header-row">
                     <th><?php the_field('eurodollar-table-header-col-one');?></th>

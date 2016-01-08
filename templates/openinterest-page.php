@@ -3,7 +3,7 @@
 
     <div class="eurodollar-body">
 
-        <nav class="navbar navbar-default navbar-euro-top">
+        <nav class="navbar navbar-default navbar-euro-top navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <p class="navbar-eurodollar-title">Open Interest: eurodollar</p>
@@ -24,7 +24,7 @@
             </div>
         </nav>
 
-        <div class="table-responsive">
+        <div class="table-responsive table-euro-responsive">
             <table class="table table-bordered table-striped table-openinterest">
                 <tr id="table-openinterest-header-row">
                     <th></th>
