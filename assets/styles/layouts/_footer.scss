@@ -14,8 +14,10 @@ footer {
     float: left;
 }
 
-.address-footer p {
+.footer-street-address, .footer-phone-number {
+    font-size: 13px;
     letter-spacing: 2px;
+    font-family: din-med;
 }
 
 .address-footer img, .footer-phone-number, {
@@ -24,7 +26,9 @@ footer {
 
 .footer-sitemap {
     padding-bottom: 30px;
-    font-size: 13px;
+    font-size: 11px;
+    font-family: din-med;
+    letter-spacing: 3px;
 }
 
 .footer-street-address {
@@ -54,6 +58,13 @@ footer {
 }
 
 .social-icon-background img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.social-icon-background i {
     display: block;
     margin-right: auto;
     margin-left: auto;

@@ -19,15 +19,11 @@
         </form>
 
         <div class="social-footer">
-            <div class="social-icon-background">
-                <img src="http://firstsage.dev/wp-content/uploads/2015/12/Bitmap1.png">
-            </div>
-            <div class="social-icon-background">
-                <img src="http://firstsage.dev/wp-content/uploads/2015/12/Bitmap2.png">
-            </div>
-            <div class="social-icon-background">
-                <img src="http://firstsage.dev/wp-content/uploads/2015/12/Bitmap.png">
-            </div>
+            <?php while( have_rows('footer-social', 6) ): the_row(); ?>
+                <div class="social-icon-background">
+                    <img src="<?= the_sub_field('icon-image', 6);?>">
+                </div>
+            <?php endwhile; ?>
         </div>
 
     </div>

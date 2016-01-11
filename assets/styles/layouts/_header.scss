@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: cent;
-    src: url('../../dist/fonts/CENTURY.ttf');
+    src: url('../../dist/fonts/CENTURY.TTF');
 }
 
 
 #nav-container {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-right: 75px;
     margin-left: 75px;
 }
@@ -69,3 +69,7 @@ a.navbar-right {
     width: 100%;
     border-radius: 0px;
 }
+
+// TABLET RESPONSIVE
+
+
