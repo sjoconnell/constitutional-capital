@@ -52,17 +52,17 @@
     font-size: 12px;
 }
 
-// a.navbar-right {
-//     background-color: #41A780;
-//     color: white;
-//     margin-top: 12px;
-//     border: none;
-//     letter-spacing: 3px;
-//     padding: 9px 22px;
-//     margin-top: 20px;
-//     font-family: din-med;
-//     font-size: 12px;
-// }
+a.navbar-right {
+    background-color: #41A780;
+    color: white;
+    margin-top: 12px;
+    border: none;
+    letter-spacing: 3px;
+    padding: 9px 22px;
+    margin-top: 20px;
+    font-family: din-med;
+    font-size: 12px;
+}
 
 .nav-no-margin {
     margin-bottom: 0;
@@ -70,30 +70,37 @@
     border-radius: 0px;
 }
 
-// TABLET RESPONSIVE
 
-// @media (max-width:1030px){
-//     .nav>li>a {
-//         font-size: 10px;
-//     }
-// }
+// MOBILE RESPONSIVE
 
-// @media (max-width:975px){
-//     .nav>li>a {
-//         padding-left: 10px;
-//         padding-right: 10px;
-//     }
-// }
+@media (max-width:1030px) and (min-width:768px){
+    .nav>li>a {
+        font-size: 10px;
+    }
+}
 
-// @media (max-width:925px){
-//     .nav>li>a {
-//         padding-left: 5px;
-//         padding-right: 5px;
-//     }
-// }
+@media (max-width:975px) and (min-width:768px){
+    .nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
-// @media (max-width:880px){
-//     .menu-navigation-menu-container {
+@media (max-width:925px) and (min-width:768px){
+    .nav>li>a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width:880px) and (min-width:768px){
+    .menu-navigation-menu-container {
+        display: none;
+    }
+}
+
+// @media (max-width:770px){
+//     a.nav-contact-button {
 //         display: none;
 //     }
 // }
