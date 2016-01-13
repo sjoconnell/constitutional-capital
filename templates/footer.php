@@ -14,8 +14,12 @@
           <div class="form-group form-footer-color" >
             <label class="sr-only" for="exampleInputEmail3">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+
+            <button type="submit" class="btn btn-default footer-form-button-mobile"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
           </div>
           <button type="submit" class="btn btn-default footer-form-button">Submit</button>
+
+<!--           <button type="submit" class="btn btn-default footer-form-button-mobile"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button> -->
         </form>
 
         <div class="social-footer">
