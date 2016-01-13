@@ -57,22 +57,24 @@
 }
 
 .home-container-bottom-holder {
-    display: inline-block;
+    display: block;
     width: 33%;
+    float: left;
 }
 
 .home-container-bottom-holder-image {
     background-image: url("../images/About-Icon-Homepage.png");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 220px;
-    width: 212px;
+    width: 220px;
     margin: 0 auto;
 }
 
-.home-container-bottom-holder img {
-    display: block;
-    margin: 0 auto;
-}
+// .home-container-bottom-holder img {
+//     display: block;
+//     margin: 0 auto;
+// }
 
 .home-container-bottom-holder p {
     padding-top: 50px;
@@ -81,4 +83,57 @@
     font-size: 22px;
     font-family: din-med;
     letter-spacing: 1px;
+}
+
+// MOBILE RESPONSIVE
+
+@media (max-width: 904px){
+    .home-background-text {
+        top: 23%;
+    }
+}
+
+@media (max-width: 767px){
+    
+    .home-container {
+        margin-bottom: 600px;
+    }
+
+    .home-container-bottom-holder{
+        width: 100%;
+        padding-bottom: 45px;
+    }
+
+    .home-image-container p {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .home-background-text {
+        top: 19%;
+        width: 70%;
+        left: 15.5%;
+    }
+
+    .home-container-bottom-holder p {
+        padding-top: 40px;
+    }
+
+    .home-container-bottom {
+        padding-bottom: 0px;
+        padding-top: 45px;
+        bottom: -600px;
+    }
+}
+
+@media (max-width: 597px){
+    .home-background-text {
+        top: 16%;
+    }
+}
+
+@media (max-width: 486px){
+    .home-background-text {
+        top: 13%;
+    }
 }
