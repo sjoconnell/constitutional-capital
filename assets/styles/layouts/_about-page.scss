@@ -63,6 +63,7 @@
     overflow-x: hidden;
     padding-left: 80px;
     height: 450px;
+    float: right;
 }
 
 .about-bottom {
@@ -95,6 +96,7 @@
 .about-bottom-profiles-place-image {
     background-image: url("../images/Leader-One.png");
     background-repeat: no-repeat;
+    background-size: contain;
     height: 200px;
     display: inline-block;
     width: 30%;
@@ -126,4 +128,49 @@
     color: #667581;
     font-family: din-med;
 }   
+
+// MOBILE RESPONSIVE
+
+@media (max-width: 767px){
+
+    .about-middle {
+        padding: 10% 20%;
+    }
+
+    .about-middle-image {
+        background-size: contain;
+        width: 100%;
+        padding-left: 0px;
+        overflow-x: none;
+        height: 250px;
+    }
+
+    .about-middle-text {
+        width: 100%;
+    }
+
+    .about-bottom-profiles {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .about-bottom {
+        padding: 10% 20%;
+    }
+
+    .about-bottom-text {
+        width: 100%;
+    }
+
+    .about-bottom-profiles-place-image {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .about-bottom-profiles-place-text{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
 

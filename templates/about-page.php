@@ -9,13 +9,15 @@
         </div>
 
         <div class="about-middle">
+            <div class="about-middle-image" style="background-image:url(<?= the_field('about-middle-image'); ?>)">
+            </div> 
             <div class="about-middle-text">
                 <h2><?php the_field('about-middle-text-title');?></h2>
                 <p><?php the_field('about-middle-text-top');?></p>
                 <p><?php the_field('about-middle-text-bottom');?></p> 
             </div>
-            <div class="about-middle-image" style="background-image:url(<?= the_field('about-middle-image'); ?>)">
-            </div>       
+<!--             <div class="about-middle-image" style="background-image:url(<?= the_field('about-middle-image'); ?>)">
+            </div>      -->  
         </div>
 
         <div class="about-bottom">
