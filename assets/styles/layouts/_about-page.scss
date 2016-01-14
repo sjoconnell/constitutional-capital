@@ -49,7 +49,7 @@
 
 .about-middle-text p, .about-bottom-text p {
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 20px;
     padding-bottom: 20px;
     letter-spacing: 2px;
     font-family: din-med;
@@ -121,6 +121,7 @@
     color: #FFFFFF;
     letter-spacing: 2px;
     font-family: din-med;
+    font-size: 16px;
 }
 
 .about-bottom-profiles-place-text p {
@@ -134,7 +135,7 @@
 @media (max-width: 767px){
 
     .about-middle {
-        padding: 10% 20%;
+        padding: 10% 15%;
     }
 
     .about-middle-image {
@@ -155,11 +156,15 @@
     }
 
     .about-bottom {
-        padding: 10% 20%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 75px;
+        padding-bottom: 0px;
     }
 
     .about-bottom-text {
         width: 100%;
+        padding-bottom: 50px;
     }
 
     .about-bottom-profiles-place-image {
@@ -171,6 +176,59 @@
     .about-bottom-profiles-place-text{
         width: 100%;
         padding-left: 0px;
+    }
+}
+
+@media (max-width: 680px){
+    .about-top p{
+        font-size: 30px;
+    }
+
+    .about-middle-text h2, .about-bottom-text h2{
+        font-size: 38px;
+    }
+
+    .about-middle-text p, .about-bottom-text p{
+        font-size: 18px;
+    }
+
+    .about-bottom-profiles-place-text h2{
+        font-size: 28px;
+    }
+
+    .about-bottom-profiles-place-text h3{
+        font-size: 14px;
+    }
+
+    .about-bottom-profiles-place-text p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:486px){
+    .about-top p{
+        font-size: 24px;
+    }
+
+    .about-middle-text h2, .about-bottom-text h2{
+        font-size: 32px;
+    }
+
+    .about-middle-text p, .about-bottom-text p{
+        font-size: 16px;
+    }
+
+    .about-bottom-profiles-place-text h2{
+        font-size: 24px;
+    }
+
+
+}
+
+@media (max-width:455px){
+    .about-middle-image{
+        height: 200px;
     }
 }
 

@@ -16,7 +16,7 @@ use Roots\Sage\Wrapper;
       </div>
     <![endif]-->
         <div class="mobile-header-menu">
-          <div class="mobile-header-menu-toprow">
+          <div class="mobile-header-menu-row">
             <i class="fa fa-times fa-4x mobile-menu-icon"></i>
           </div>
           <?php
@@ -24,6 +24,11 @@ use Roots\Sage\Wrapper;
               wp_nav_menu(['theme_location' => 'mobile_navigation', 'menu_class' => 'mobile-nav']);
             endif;
             ?>
+          <div class="mobile-header-menu-row bottom-mobile-color">
+            <div class="mobile-header-menu-button">
+              <a class="btn btn-default btn-lg navbar-right" href="<?= the_field('header-button-link', 6);?>" role="button"><?php the_field('header-button-text', 6);?></a>
+            </div>          
+          </div>
         </div>
     <?php
       do_action('get_header');
