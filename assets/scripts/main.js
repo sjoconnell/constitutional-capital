@@ -21,7 +21,9 @@
         // JavaScript to be fired on all pages
       },
       finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+        $(".mobile-menu-icon").on("click", function(event){
+          $(".mobile-header-menu").toggleClass("mobile-toggle");
+        });
       }
     },
     // Home page

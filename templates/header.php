@@ -6,7 +6,7 @@
             <img class="cc-logo" src="<?= the_field('header-logo', 6);?>">
           </a>
 
-          <div class="hamburger-menu">
+          <div class="hamburger-menu mobile-menu-icon">
             <i class="fa fa-bars fa-3x"></i>
           </div>
 

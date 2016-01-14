@@ -94,6 +94,10 @@ a.navbar-right {
     transform: translate(0%,-200%);
 }
 
+.mobile-toggle {
+    transform: translate(0%, 0%);
+}
+
 .mobile-nav>li {
     text-align: center;
     height: 90px;
@@ -153,13 +157,17 @@ a.navbar-right {
     }
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
     .main-header-nav-button {
         display: none;
     }
 
     .hamburger-menu {
         display: inline;
+    }
+
+    #nav-container {
+        margin-bottom: 11px;
     }
 
 }

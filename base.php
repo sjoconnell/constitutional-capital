@@ -17,7 +17,7 @@ use Roots\Sage\Wrapper;
     <![endif]-->
         <div class="mobile-header-menu">
           <div class="mobile-header-menu-toprow">
-            <i class="fa fa-times fa-4x"></i>
+            <i class="fa fa-times fa-4x mobile-menu-icon"></i>
           </div>
           <?php
             if (has_nav_menu('mobile_navigation')) :
